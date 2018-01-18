@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Bing</ShortName>
+	<Description>Bing</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>Bing</LongName>
+	<Language>*</Language>
+	<Image width="16" height="16" type="image/icon">https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico</Image>
+	<Url rel="results" type="text/html" method="get" template="https://www.bing.com/search?q={searchTerms}"/>
+	<Url rel="suggestions" type="application/x-suggestions+json" template="https://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}&amp;form=OSDJAS"/>
+</OpenSearchDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>維基百科</ShortName>
+	<Description>維基百科，自由的百科全書</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>維基百科</LongName>
+	<Language>*</Language>
+	<Image width="16" height="16" type="image/icon">https://zh.wikipedia.org/static/favicon/wikipedia.ico</Image>
+	<Url rel="results" type="text/html" method="get" template="https://zh.wikipedia.org/wiki/{searchTerms}"/>
+	<Url rel="suggestions" type="application/x-suggestions+json" template="https://zh.wikipedia.org/w/api.php?action=opensearch&amp;format=json&amp;formatversion=2&amp;search={searchTerms}&amp;namespace=0&amp;limit=10&amp;suggest=true"/>
+</OpenSearchDescription>

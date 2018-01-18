@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Yahoo奇摩!</ShortName>
+	<Description>即可享受 Yahoo奇摩提供的最佳網路體驗。</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>Yahoo奇摩!</LongName>
+	<Language>*</Language>
+	<Image height="16" width="16">https://mbp.yimg.com/sy/rz/l/favicon.ico</Image>
+	<Url rel="results" type="text/html" method="get" template="https://tw.search.yahoo.com/search?p={searchTerms}&amp;fr=opensearch"/>
+	<Url rel="suggestions" type="application/x-suggestions+json" template="https://tw.search.yahoo.com/sugg/os?command={searchTerms}&amp;output=fxjson&amp;fr=opensearch"/>
+	<Url rel="self" type="application/opensearchdescription+xml" template="https://tw.search.yahoo.com/opensearch.xml"/>
+</OpenSearchDescription>
