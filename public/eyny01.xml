@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>伊莉討論區</ShortName>
+	<Description>伊莉討論區</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>伊莉討論區</LongName>
+	<Language>*</Language>
+	<Image width="16" height="16" type="image/icon">http://www01.eyny.com/favicon.ico</Image>
+	<Url rel="results" type="text/html" method="get" template="http://www01.eyny.com/search.php?mod=forum&amp;searchid=46093&amp;orderby=lastpost&amp;ascdesc=desc&amp;searchsubmit=yes&amp;srchfrom=0&amp;kw={searchTerms}"/>
+	<Url rel="suggestions" type="application/x-suggestions+json" template="https://www.google.com/complete/search?client=firefox&amp;q={searchTerms}"/>
+</OpenSearchDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>YouTube</ShortName>
+	<Description>YouTube</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>YouTube</LongName>
+	<Image width="16" height="16">https://www.youtube.com/yts/img/favicon-vfl8qSV2F.ico</Image>
+	<Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;client=firefox&amp;hl=zh-TW&amp;q={searchTerms}&amp;ds=yt"/>
+	<Url type="text/html" template="http://www.youtube.com/results">
+		<Param name="search_type" value="search_videos" />
+		<Param name="search_query" value="{searchTerms}" />
+		<Param name="search_sort" value="relevance" />
+		<Param name="search_category" value="0" />
+		<Param name="page" value="{startPage?}" />
+	</Url>  
+</OpenSearchDescription>

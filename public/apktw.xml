@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Android台灣中文網</ShortName>
+	<Description>Android台灣中文網</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>Android台灣中文網</LongName>
+	<Language>*</Language>
+	<Image width="16" height="16" type="image/icon">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAKUSURBVDhPfZP7S1NhHMbf/p5MEMyMCvqlHwpMGpQkWKKgBV1+iyJBCzS1IhEayGluXqd5WdaY5m3ehjPctXnd5mUunW66qWdXtz295900I+2BD+d93+/zfM95z3sOAcgZlbmggIKT+G55SHnwb81YmCVkidJwv0NpzIdAr7mYXQUGLE8wOv8Sk9YKul50tH6cb6b8p6RHl4cE92jXYgzPPId9sw98yIVYLILIAY8Nnw7Dsy+Svr/gSPePXByi1BfB51/FcW36THBua+EPbUE9U3LkTcKRz5o7SJAD20Yf3Ltz2OHtyThwEA0gQonHY5hzdjOvSv8Yiql8tGtuc6R1VASBTk0evYsbwYgvGYjSbWxhfUePuTUFDEsy6OwSDJpKEAhvs3nriIgjjUM3IdClKYSXX8X2ng0LThV0NimlHjOr3XB5f9LQDmK0qcHeyJr/8ujQMJTFEUnfdcj6s9E4KILaVAmjXQ7HlpY2c9ANxBP7OCbLShcNGxCK7KFFfVdG6pTXsOyagG6xCQabPGk7XU6PHqalDjZWTj5TkI+KqwhHePBBN8bMtfSlhVjxNPmDHkxYxGyst7ZpSU3HZSxvTNJpHGrDB3h8f07gZFGfsQbzjn6Mm8Wj5J08E0O696w0Pd+C2ZVeNv6fFhwDEHLV8gyOVDWlQ6rMZQWHaxrjpjp25qdJqJltX1DVdB6VDekcKZel4W3zJSyvT2FxbQRtA4/oJ3yQtCcCe/5N8AEPm2stDahuvgghVy5N48grybna15JU2uTKEda1Mbi9SwiF97HLuyDuysbX8VLWwGTtgeAXKKtPzWG/c+mnlIIyLgWHvJFlokKWAYtdhWg0DHHnLdS232BPFgh5USm9sF/KnRURQshvUFM/PUcpBycAAAAASUVORK5CYII=</Image>
+	<Url rel="results" type="text/html" method="get" template="https://apk.tw/search.php?mod=google&amp;cx=partner-pub-7702824122407732%3A4996651148&amp;cof=FORID%3A10&amp;q={searchTerms}"/>
+	<Url rel="suggestions" type="application/x-suggestions+json" template="https://www.google.com/complete/search?client=firefox&amp;q={searchTerms}"/>
+</OpenSearchDescription>
