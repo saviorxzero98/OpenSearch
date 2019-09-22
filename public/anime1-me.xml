@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Anime1.me</ShortName>
+	<Description>Anime1.me</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<LongName>Anime1.me</LongName>
+	<Language>*</Language>
+	<Image width="16" height="16" >https://cdn.anicdn.com/favicon-16x16.png</Image>
+	<Url rel="results" type="text/html" method="get" template="https://anime1.me/?s={searchTerms}"/>
+	<Url rel="suggestions" type="application/x-suggestions+json" template="https://www.google.com/complete/search?client=firefox&amp;q={searchTerms}"/>
+</OpenSearchDescription>

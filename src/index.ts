@@ -5,7 +5,9 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static('public'))
 app.get('/', (req, res) => {
-    res.render('index', {});
+    let engine = req.query.engine || 'google';
+    let title = req.query.title || 'Google';
+    res.render('index', { engine: engine, title: title });
 });
 app.get('*', (req, res) => {
     res.send('Page Not Found');
