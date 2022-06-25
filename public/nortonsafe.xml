@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Norton Safe Search</ShortName>
+    <Description>Norton Safe Search</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <LongName>Norton Safe Search</LongName>
+    <Language>*</Language>
+    <Image width="16" height="16" type="image/icon">https://search.norton.com/img/favicon.ico</Image>
+    <Url type="text/html" method="GET" template="https://nortonsafe.search.ask.com/web">
+        <Param name="q" value="{searchTerms}"/>
+    </Url>
+    <Url type="application/x-suggestions+json" method="GET" template="https://ss-sym.search.ask.com/ss">
+        <Param name="q" value="{searchTerms}"/>
+        <Param name="hl" value="{language}"/>
+        <Param name="limit" value="10"/>
+        <Param name="li" value="ff"/>
+    </Url>
+</OpenSearchDescription>

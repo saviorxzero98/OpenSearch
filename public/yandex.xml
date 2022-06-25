@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Yandex</ShortName>
+    <Description>Yandex</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <LongName>Yandex</LongName>
+    <Language>*</Language>
+    <Image width="16" height="16" type="image/icon">https://yastatic.net/s3/home-static/_/64/64f5920e670ad193dcca0ed33500c7c4.png</Image>
+    <Url type="text/html" method="GET" template="https://yandex.com/search">
+        <Param name="text" value="{searchTerms}"/>
+    </Url>
+    <Url type="application/x-suggestions+json" method="GET" template="https://suggest.yandex.com/suggest-ff.cgi">
+        <Param name="part" value="{searchTerms}"/>
+    </Url>
+</OpenSearchDescription>

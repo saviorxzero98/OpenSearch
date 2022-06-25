@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>阿榮福利味</ShortName>
-	<Description>阿榮福利味</Description>
-	<InputEncoding>UTF-8</InputEncoding>
-	<LongName>阿榮福利味</LongName>
-	<Language>*</Language>
-	<Image width="16" height="16" type="image/icon">http://www.azofreeware.com/favicon.ico</Image>
-	<Url rel="results" type="text/html" method="get" template="http://www.azofreeware.com/search?q={searchTerms}"/>
-	<Url rel="suggestions" type="application/x-suggestions+json" template="https://www.google.com/complete/search?client=firefox&amp;q={searchTerms}"/>
+    <ShortName>阿榮福利味</ShortName>
+    <Description>阿榮福利味</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <LongName>阿榮福利味</LongName>
+    <Language>*</Language>
+    <Image width="16" height="16" type="image/icon">http://www.azofreeware.com/favicon.ico</Image>
+    <Url type="text/html" method="GET" template="http://www.azofreeware.com/search">
+        <Param name="q" value="{searchTerms}"/>
+    </Url>
+    <Url type="application/x-suggestions+json" method="GET" template="https://www.google.com/complete/search">
+        <Param name="q" value="{searchTerms}"/>
+        <Param name="client" value="firefox"/>
+    </Url>
 </OpenSearchDescription>

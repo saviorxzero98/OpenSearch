@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-    <ShortName>Google</ShortName>
-    <Description>Google</Description>
+    <ShortName>Firefox附加元件</ShortName>
+    <Description>Firefox附加元件</Description>
     <InputEncoding>UTF-8</InputEncoding>
-    <LongName>Google</LongName>
+    <LongName>Firefox附加元件</LongName>
     <Language>*</Language>
-    <Image width="16" height="16" type="image/icon">https://www.google.com.tw/favicon.ico</Image>
-    <Url type="text/html" method="GET" template="https://www.google.com/search">
+    <Image width="16" height="16" type="image/icon">https://addons.mozilla.org/favicon.ico</Image>
+    <Url type="text/html" method="GET" template="https://addons.mozilla.org/zh-TW/firefox/search/">
         <Param name="q" value="{searchTerms}"/>
-        <Param name="ie" value="utf-8"/>
-        <Param name="oe" value="utf-8"/>
     </Url>
     <Url type="application/x-suggestions+json" method="GET" template="https://www.google.com/complete/search">
         <Param name="q" value="{searchTerms}"/>
