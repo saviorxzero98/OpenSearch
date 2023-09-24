@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Qwant</ShortName> 
+    <Description>Qwant</Description> 
+    <InputEncoding>UTF-8</InputEncoding> 
+    <LongName>Qwant</LongName> 
+    <Language>*</Language>
+    <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD2ElEQVRYhb2X7U9bZRjGf6cvrBQKBcH1RUQmG4rUxS1jIMPpYLJFsg/GfdnIxBiToYnGzJjwF8wvLi5mTsVEt5HsiyYGs+gy3NzYGCwz2xBr0m28yEuBtUBLWyhjPX4onHJKX06J7PrU+z73fV3Xcz85Pc8jADScFEuBo0AtoGdtEQDagebWJsEuLIpfB7LWWDgaXqBSRXjlj1ucRc2jGsJjVwxRDDE93MPU8C3mvGOAgC7bRE7BFoyWMgRBlQpdrQaFe74Q9HP3ygnudXxDYHo4Zo0+t5CN1Ycprm5Ck5auhFYvNJwUxWRVrr5Orp9uJDA5qISUzLwNVLx9micKtyWtTTqv4Z42Ln1Zp1gcwOfq4+LxWpz235LWJpyAe/AmF4/vIrQQlHLrMp9k084PsNjqMeQXAzAz4WCk5xccV04w73dLtWptOjUfXybnqc2pG3i0MM/5z7YyM+GQclbbPsoPtpCmN8YkC/on6T7zjmzl2eYyXv+0G5VaE7Mn7hb0d52SiZtf2MvL756NKw6wLiOXHe/9yPqSGinncfYyePNs3J64Bu5fa5F+a3VZlB9oQaWKvQoZoVrL9obvUKdFXq7lXIoMzHqcTI/ckeKiikZ0hvyk4ktIz7bwTHmDFLsHbhD0Tyo3MD36lyw2l9YpFpd6nl/eI+IZ7VVuIOh7IIszcgtTNhDdE82Z0IAQtdehRw9TNhDdE82Z0IDeaJXFHqc9ZQOeMXlPNGdCA0brZgS1VoqHbv+UsoGhW5EetVZHtqVMuQGtzoBp2bs8fOdnJv/9U7H4g75OnH//KsXm0j2otTrlBgA2vfphJBBDdH5/kFmPM6m4f2qIrlOHgMgfrIxLqQHTczVYbPURYnc/7ceqGXf8EZds7J8L/H7sFQJTQ1Ku4KW3yH+2Km5Pwo9R0OfiwudV+N0Dsnzehiqstnoy84sBkZmJu4z0tOEe6JbVGfI3UnukgzR9zuoMAPhc/Vz+6g18rvuJylbAsL6Ene+fIyOnIGFd0vNAZl4Ruz+5RuG2AwqlBYoqGtl95GpScVAwgeWYGrrNvatfM9J7juDMhOyZLsuE1VZP8Y7DGK02pZSpGViCKIrMekaZ847T8e2bqFRqdNnmhD0lr33E01v2r8gn/77GgCAI6I1W9EYr5tI6+rt+iHtQXcLAjTMxDaR0ho4F64v7FNWNOy7xcM77/xswlexCnZaRtC60MI/Tfn5FXkP4rrbq+6Bam87W/V/gV3Bq1uoM0amAhvBFUdkc46Bo+6HVtrargGbCF8XHDS/QrGptEuxAJdBGeDvWGoFFrcrWJsH+H7AiQTr3nFgaAAAAAElFTkSuQmCC</Image>
+    <Url type="text/html" method="GET" template="https://www.qwant.com">
+        <Param name="q" value="{searchTerms}"/>
+        <Param name="client" value="opensearch"/>
+    </Url>
+    <Url type="application/x-suggestions+json" method="GET" template="https://api.qwant.com/v3/suggest/">
+        <Param name="q" value="{searchTerms}"/>
+        <Param name="client" value="opensearch"/>
+    </Url>
+</OpenSearchDescription>
